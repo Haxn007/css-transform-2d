@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(33, 33, 33);
+  color: aliceblue;
+}
+.trans {
+  font-size: larger;
+  width: 500px;
+  border: 3px solid yellow;
+  padding: 10px;
+  transform: translate(20px, 40px);
+}
+
+.rot {
+  border: 3px solid peru;
+  width: 100px;
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+  transform: rotate(10deg);
+}
+.scal {
+  border: 3px solid peru;
+  width: 100px;
+  text-align: center;
+  /* margin-top: 1000px; */
+  padding: 20px;
+  /* transform: scaleX(2); */
+  transform: skew(120deg);
+  margin: 0 auto;
+}
+.mat {
+  border: 3px solid blueviolet;
+  width: 100px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 10px;
+  transform: rotate(120deg);
+  transform-origin: 20% 40%;
+}
